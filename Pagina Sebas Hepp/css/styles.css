@@ -1,0 +1,50 @@
+
+header{
+    background-color: #B61E2A;
+}
+
+img{
+    width: 100%;
+} 
+
+
+.contenedor{
+    margin: 0 5%;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.nav__bar__enlaces a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.nav__bar__enlaces{
+    align-items: center;
+    justify-content: center;
+
+}
+.nav__bar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}  
+
+
+.nav_bar_enlace{
+    margin: 1.4rem;
+    color: white;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.logo_con_nombre{
+    padding: 1rem;
+
+}
+
+.nav__bar__logo{
+    width: 20rem;
+}
+
+/* Fin de la barra de navegación */
