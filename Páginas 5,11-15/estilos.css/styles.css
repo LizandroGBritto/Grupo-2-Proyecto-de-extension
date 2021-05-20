@@ -1,0 +1,136 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* Esto coniverte todos los rem a 10 px*/
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/* Variables universales */
+:root{
+    --FuenteHeading: 'Open Sans', sans-serif;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+}
+/** CONFIGURACIONES GLOBALES **/
+header{
+    background-color: #B61E2A;
+}
+h1 { font-size: 4.8rem; }
+h2 { font-size: 4rem;   }
+h3 { font-size: 3.2rem; }
+h4 { font-size: 2.8rem; }
+a{
+    text-decoration: none;
+    font-family: var(--FuenteHeading);
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+img{
+    width: 100%;
+}
+.contenedor{
+    margin: 0 5%;
+}
+/* BARRA DE NAVEGACIÓN */
+.nav__bar__enlaces{
+    align-items: center;
+    justify-content: center;
+}
+.nav__bar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}  
+.nav_bar_enlace{
+    margin: 1.4rem;
+}
+.logo_con_nombre{
+    padding: 1rem;
+}
+.nav__bar__logo{
+    width: 20rem;
+}
+/* Fin de la barra de navegación */
+
+/*Cuerpo */
+.container{
+    height: 1200px;
+    margin-top: 70px;
+    width: 510px;
+}
+.container h5{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.facat{
+    float: left;
+    margin-left: 22%;
+}
+.p-2 img{
+    height: 90%;
+    width: 62%;
+}
+.datosalumno{
+    text-align: left;
+}
+.datosalumno h5{
+    text-align: left;
+}
+.datosalumno p{
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+.descripcion{
+    width: 510px;
+}
+.descripcion p{
+    text-align: left;
+}
+.dlproyecto img{
+    height: 70%;
+    width: 70%;
+    margin-left: 10%;
+    padding-top: 7%;
+}
+/*Estrella*/
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 60px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
