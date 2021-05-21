@@ -1,0 +1,119 @@
+img {
+	margin: 0;
+	padding: 0;
+}
+
+.col-sm {
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.col-8 {
+	margin: 0;
+	padding-left: 25px;
+	padding-right: 30px;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	font-size: 10.5px;
+}
+
+.texto {
+	padding-left: 5px;
+	padding-right: 30px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 19px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 19px;
+	padding-bottom: 20px;
+}
+
+.carreras {
+	padding-top: 100px;
+}
+
+.carousel {
+	padding-bottom: 50px;
+	text-align: right;
+}
+
+.carousel-caption {
+	right: 0%;
+	left: 0%;
+
+}
+
+.logo {
+	text-align: right;
+	padding-right: 7px;
+}
+
+.fac {
+	margin-right: 250px;
+	font-size: 3.5rem;
+	font-weight: 800;
+	text-align: right;
+}
+
+
+.car {
+	text-align: left;
+	padding-left: 570px;
+}
+
+.car2 {
+	text-align: left;
+	padding-left: 520px;
+}
+
+
+.rs {
+	text-align: left;
+	padding-left: 700px;
+}
+
+.UNAE-carreras {
+	text-align: left;
+	padding-left: 655px;
+}
+
+.saigo {
+	text-align: center;
+}
+
+header{
+    background-color: #B61E2A;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.nav__bar__enlaces{
+    align-items: center;
+    justify-content: center;
+}
+.nav__bar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 5%;
+   margin-right:5%;
+}  
+
+.nav_bar_enlace{
+    margin: 1.4rem;
+}
+
+.logo_con_nombre{
+    padding: 1rem;
+
+}

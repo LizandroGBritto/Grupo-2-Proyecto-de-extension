@@ -1,0 +1,82 @@
+.carousel-caption {
+	right: 0%;
+	left: 0%;
+}
+
+.logo {
+	text-align: right;
+	padding-right: 7px;
+}
+
+.fac {
+	margin-right: 250px;
+	font-size: 3.5rem;
+	font-weight: 800;
+	text-align: right;
+}
+
+
+.car {
+	text-align: left;
+	padding-left: 570px;
+}
+
+.rs {
+	text-align: left;
+	padding-left: 700px;
+}
+
+.UNAE-carreras {
+	text-align: left;
+	padding-left: 655px;
+}
+
+.title {
+	font-size: 19px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h4 {
+	font-size: 10.5px;
+	color: black;
+	padding-bottom: 15px;
+	font-weight: normal;
+}
+
+.proyectos {
+	text-align: left;
+}
+
+.row1 {
+
+}
+
+
+header{
+    background-color: #B61E2A;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.nav__bar__enlaces{
+    align-items: center;
+    justify-content: center;
+}
+.nav__bar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 5%;
+   margin-right:5%;
+}  
+
+.nav_bar_enlace{
+    margin: 1.4rem;
+}
+
+.logo_con_nombre{
+    padding: 1rem;
+
+}
