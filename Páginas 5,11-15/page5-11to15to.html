@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-
+    <!--Esta es la hoja de estilo requerida por Boostrap para cargar su propio CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <main class="contenedor">
+        <main class="contenedor"> <!--Aca comienza la barra de navegacion-->
         <div class="nav__bar">
             <div class="nav__bar__enlaces">
                 <nav>
@@ -30,18 +30,18 @@
                 <img class="logo_con_nombre" src="img/logo_blanco.png" alt="logo">
             </div>
         </div>
-        </main>
+        </main><!--Aca termina la barra de navegacion-->
     </header>
 
-    <div class="container">
+    <div class="container"><!--Es el div contenedor de todo el cuerpo-->
         <div>
-            <h5>La importancia de la tipografia en el diseño</h5>
+            <h5>La importancia de la tipografia en el diseño</h5><!--Titulo principal de la pagina-->
 
-            <div class="d-flex flex-row">
-                <div class="p-2">
+            <div class="d-flex flex-row"> <
+                <div class="p-2"><!--logo de la facultad-->
                     <img class="facat" src="img/FACAT.png" alt="logo de FACAT">
-                </div>
-                <div class="p-2">
+                </div><!--fin del logo de la facultad-->
+                <div class="p-2"><!--Datos del alumno-->
                     <h5>Datos del proyecto</h5>
                     <p>Nombre del alumno:<br>
                     Lucas Exequiel Smulder</p>
@@ -51,10 +51,10 @@
                     2020</p>
                     <p>Estado:<br>
                     Terminado</p>
-                </div>
+                </div><!--fin de datos del alumno-->
             </div>
             
-            <div class="descripcion">
+            <div class="descripcion"><!--Descripcion del contenido de la pagina-->
                 <p>El diseño gráfico es una disciplina que abarca mucho. Antes de elaborar un producto como por ejemplo
                     un logotipo, se deben de tener en cuenta y trabajar con muchos elementos como la idea, el color, la tipografía,
                     posición, distancias o la composición, y lograr que todos se combinen armónicamente. Podemos
@@ -64,10 +64,10 @@
                     alegría, además de que funciona como un signo de identidad. No olvidemos que así como existe el color
                     corporativo, también se trabaja con tipografía corporativa.
                 </p>
-            </div>
+            </div><!--fin de la descripcion-->
 
             <div class="d-flex flex-row">
-                <div class="p-2">
+                <div class="p-2"><!--Rating dinamico con estrella de estrellas-->
                     <div class="rate">
                         <input type="radio" id="star5" name="rate" value="5" />
                         <label for="star5" title="text">5 stars</label>
@@ -80,20 +80,21 @@
                         <input type="radio" id="star1" name="rate" value="1" />
                         <label for="star1" title="text">1 star</label>
                       </div>
-                </div>
-                <div class="p-2">
+                </div><!--fin del rating dinamico de estrellas-->
+                <div class="p-2"><!--Boton de descarga del documento-->
                     <div class="dlproyecto">
                         <img src="img/descargarproyecto.png" alt="descargar proyecto">
                     </div>
-                </div>
+                </div><!--fin del boton de descarga del documento-->
             </div>
         </div>
-    </div>
+    </div><!--Aca termina el cuerpo del contenido de la pagina web-->
 
-    <footer class="footer">
+    <footer class="footer"><!--Es el pie de pagina-->
         <img src="img/Footer.jpg" alt="">
-        </footer>
+        </footer><!--Fin del pie de pagina-->
 
+    <!--Componentes necesarios para que boostrap funcione correctamente-->    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
