@@ -1,0 +1,91 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* Esto coniverte todos los rem a 10 px*/
+
+    
+
+}
+/* Variables universales */
+:root{
+    --FuenteHeading: 'Open Sans', sans-serif;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+}
+
+/** CONFIGURACIONES GLOBALES **/
+
+header{
+    background-color: #B61E2A;
+}
+
+
+
+   
+}
+
+
+img {
+    width: 100%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedor{
+    margin: 0 5%;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.nav__bar__enlaces{
+    align-items: center;
+    justify-content: center;
+}
+.nav__bar{
+   display: flex;
+   background-color:#FC2C00;
+   margin-left: 5px;
+   margin-top: 5px;
+   justify-content: space-between;
+   align-items: center;
+}  
+
+
+.nav_bar_enlace{
+    margin: 1.4rem;
+}
+
+.logo_con_nombre{
+    padding: 1rem;
+
+}
+
+.nav__bar__logo{
+    width: 20rem;
+}
+
+/* Fin de la barra de navegación */
+.logo{
+    width: 50rem;
+}
+
+form{
+
+ `text-align: left;}   
+
+button{display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;}
+
+
+
+
+
+
+
+
+
+
