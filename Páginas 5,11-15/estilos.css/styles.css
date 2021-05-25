@@ -63,11 +63,13 @@ img{
     margin-top: 70px;
     width: 510px;
 }
+/*Titulo principal del cuerpo*/
 .container h5{
     text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
 }
+/*Logo de la facultad*/
 .facat{
     float: left;
     margin-left: 22%;
@@ -76,6 +78,7 @@ img{
     height: 90%;
     width: 62%;
 }
+/*Datos del alumno*/
 .datosalumno{
     text-align: left;
 }
@@ -86,6 +89,7 @@ img{
     font-size: 12px;
     margin-bottom: 18px;
 }
+/*CSS de la descripcion del contenido de la pagina*/
 .descripcion{
     width: 510px;
 }
@@ -98,7 +102,7 @@ img{
     margin-left: 10%;
     padding-top: 7%;
 }
-/*Estrella*/
+/*Rating dinamico de estrella*/
 .rate {
     float: left;
     height: 46px;
