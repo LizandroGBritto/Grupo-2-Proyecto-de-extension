@@ -13,6 +13,7 @@ html, body {
     --FuenteHeading: 'Open Sans', sans-serif;
     --negro: #000000;
     --blanco: #FFFFFF;
+    --colorFooter: #515151;
 }
 /** CONFIGURACIONES GLOBALES **/
 header{
@@ -137,4 +138,70 @@ img{
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--colorFooter);
+    padding: 5rem 0;
+}
+.footer{                                /* Display de Grid al Footer para desplegar el texto y el mapa*/
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    margin: 0 20%; /* Esto centra las dos grillas  */
+    column-gap: 5rem; /* Esto añade separacion entre las grillas*/
+}
+
+.footer__texto{             /* Todos los textos del Footer */
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    color: var(--blanco);
+}
+
+.footer__titulo{ /* Los títulos del Footer llevan esta clase (UNAE - UBICACIÓN) */
+    color: var(--blanco);
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.info__contacto{ /* Div que contiene los tres textos con sus pines*/
+    border-top: 1px solid var(--blanco);
+    padding: .8rem 0; /* Padding de .8 rem arriba y abajo, 0 a la derecha e izquierda*/
+}
+
+.contacto__ubicacion{  /* Div que contiene un pin y el texto que lo acompaña */
+    display: flex;
+    align-items: center;
+    padding: .8rem 0; /* Padding de .8 rem arriba y abajo, 0 a la derecha e izquierda*/
+}
+
+
+.contacto__ubicacion__pin { /* CLASE PARA LAS IMAGENES AL LADO DEL TEXTO*/
+    width: 3rem; 
+    height: 3rem;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 17px;
+}
+
+.redes__sociales{ /* El que dice: Seguinos en... */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes__sociales__texto{
+    margin: 1rem 0;
+}
+
+.footer__mapa{
+    display: flex;
+    flex-direction: column; /* Esto es pa que se alinee el titulo con el mapa*/
+    align-items: center;
+}
+
+.mapa{
+    border-top: 1px solid var(--blanco); /* Esto deja la linea debajo de "ubicación*/
+    padding: .8rem 0;
 }

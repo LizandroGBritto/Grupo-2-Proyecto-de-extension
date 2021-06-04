@@ -37,7 +37,7 @@
         <div>
             <h5>La importancia de la tipografia en el diseño</h5><!--Titulo principal de la pagina-->
 
-            <div class="d-flex flex-row"> <
+            <div class="d-flex flex-row">
                 <div class="p-2"><!--logo de la facultad-->
                     <img class="facat" src="img/FACAT.png" alt="logo de FACAT">
                 </div><!--fin del logo de la facultad-->
@@ -83,16 +83,60 @@
                 </div><!--fin del rating dinamico de estrellas-->
                 <div class="p-2"><!--Boton de descarga del documento-->
                     <div class="dlproyecto">
-                        <img src="img/descargarproyecto.png" alt="descargar proyecto">
+                        <a href="#">
+                            <img src="img/descargarproyecto.png" alt="descargar proyecto">
+                        </a>
                     </div>
                 </div><!--fin del boton de descarga del documento-->
             </div>
         </div>
     </div><!--Aca termina el cuerpo del contenido de la pagina web-->
 
-    <footer class="footer"><!--Es el pie de pagina-->
-        <img src="img/Footer.jpg" alt="">
-        </footer><!--Fin del pie de pagina-->
+    <footer>
+        <!-- <img src="img/Footer.jpg" alt=""> -->
+        <div class="footer" >
+        <div class="footer__info">
+            <h4 class="footer__titulo">UNAE</h4>
+            <div class="info__contacto">
+                <div class="contacto__ubicacion">
+                    <img class="contacto__ubicacion__pin" src="img/alfiler.png" alt="ubi">
+                    <p class="footer__texto">Calle Kreusser c/ Honorio González <br>Encarnación Paraguay</p>
+                </div>
+                <div class="contacto__ubicacion">
+                    <img class="contacto__ubicacion__pin" src="img/telefono-inteligente.png" alt="ubi">
+                    <p class="footer__texto">+595 983 796 259</p>
+                </div>
+                <div class="contacto__ubicacion">
+                    <img class="contacto__ubicacion__pin" src="img/email.png" alt="ubi">
+                    <p class="footer__texto">recepcion@unae.edu.py</p>
+                </div>
+    
+                <div class="redes__sociales">
+                    <p class="redes__sociales__texto footer__texto">Siguenos en:</p>
+                    <div class="redes__sociales__img">
+                    <a href="https://www.facebook.com/unaeenc">
+                    <img class="contacto__ubicacion__pin" src="img/simbolo-de-la-aplicacion-de-facebook.png" alt="ubi">
+                    </a>
+                    <a href="https://twitter.com/UNAE_Enc">
+                    <img class="contacto__ubicacion__pin" src="img/twitter.png" alt="ubi">
+                    </a>
+                    <a href="https://www.instagram.com/unae_enc/?hl=es-la">
+                    <img class="contacto__ubicacion__pin" src="img/instagram.png" alt="ubi">
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer__mapa"> <!-- MAPA -->
+        <h4 class="footer__titulo">Ubicación</h4>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3544.2214016073412!2d-55.86243858542591!3d-27.337545917639293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457955909209007%3A0x354866d67ef265!2sUniversidad%20Aut%C3%B3noma%20de%20Encarnaci%C3%B3n%20-%20UNAE!5e0!3m2!1ses!2spy!4v1621892554376!5m2!1ses!2spy" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        </div>
+    
+        </div>
+        </footer>
 
     <!--Componentes necesarios para que boostrap funcione correctamente-->    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
